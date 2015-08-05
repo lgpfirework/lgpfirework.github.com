@@ -1,0 +1,218 @@
+/**********eshbeata.com css **********/
+/**  Eshbeata **/
+
+
+/**** reset *********/
+*{margin:0;padding:0;border:0;}
+a{text-decoration:none;}
+
+.clear{clear:both;}
+ul , li {list-style:none;}
+form ,select , input { padding:0;outline:none;}
+p{margin: 0;padding: 0;border: 0;outline: 0;font-size:100%;vertical-align:baseline;}
+hr {background:url(../images/backgrounds/hr.png);height:2px; width:444px;}
+
+body{ font-family:Arial, Helvetica, sans-serif;background:#b4dbee url(../images/backgrounds/header_bg.jpg); background-position:center top; background-repeat:no-repeat;}
+#logo{float:left;display:block;width:250px;height:70px; }
+.wrapper{position:relative;width:950px; margin:0 auto;}
+
+
+h1 ,h2 { font-family:Myriad Pro,Arial, Helvetica, sans-serif;}
+
+.header{margin-top:10px; position:relative;}
+.header ul#nav{float:right;margin-top:10px}
+.header ul#nav li {float:left;padding-right:15px;padding-left:15px;line-height:12px;;border-right:1px solid #06F;}
+.header ul#nav li.last{border-right:none;}
+.header ul#nav li a{ font-family:Myriad Pro,Arial, Helvetica, sans-serif;font-weight:bold;font-size:22px;color:#0496c8;}
+.header ul#nav li a:hover{color:#F30;}
+.home{margin-top:75px;}
+.home h1{ text-indent:-9999px;background:url(../images/backgrounds/h1.png);height:393px; width:898px;}
+.home h2{display:none;margin-top:35px;font-size:39px;color:#1886BA;width:850px;}
+.home hr{margin:0 auto;margin-top:20px;}
+
+.fb_like{ position:absolute; right:0px;top:90px;}
+#work{
+	margin-left:50px;
+width:850px !important;	
+height:200px;
+}
+.work{ position:relative;overflow: hidden;margin-top:50px;}
+.work h2{font-size:32px; color:#ef3f3e;margin-bottom:20px;}
+.work  ul{margin-left:55px;width:900px;float: left;
+height: 178px;margin-top:30px}
+.work ul li{width:200px;padding-left:10px;float:left;background:url(../images/backgrounds/portfolio.png);padding-bottom:13px;background-position:bottom center; background-repeat:no-repeat;}
+.work ul li a{background:#fff;display:block;border:8px solid #fff;width:174px;height:153px;margin-right:25px;}
+.work ul li a:hover{border :8px solid #FC4E69 ;}
+.work ul li img{width:175px;}
+.work a.prev{	
+float: left;z-index:9999;background:url(../images/icons/arrow_left.png);width:22px;height:52px;display:block;
+position:absolute;left:0;top:120px;
+}
+.work a.next{
+	
+float: right;
+position:absolute;right:0;top:120px;
+text-indent: -9999px;
+
+background:url(../images/icons/arrow_right.png);width:22px;height:52px;display:block;}
+.talk_btn{display:block;width:322px;height:55px;font-size:38px;text-align:center;margin:0 auto;background:url(../images/buttons/talk.png);color:#fff;text-indent:-99999px;}
+.talk_btn:hover{background-position:0px -109px;}
+.talk_btn:active{background-position:0 -52px;}
+.land{margin-top:100px;background:url(../images/backgrounds/land.jpg);width:100%;height:546px; background-position:center center; background-repeat:no-repeat}
+
+.land ul#tweet{float:right;}
+.land ul#tweet li.first{width:auto;height:auto;background:none;padding:0px;margin:0;padding-left:0px;}
+.land ul#tweet h2{font-size:32px; color:#ef3f3e;margin-left:40px;}
+.land ul#tweet a.link{ text-indent:-9999px;display:block;width:106px;height:94px;background:url(../images/icons/twitter.png);float:left;margin-left:-60px;margin-top:-20px;position:absolute;}
+.land ul#tweet li{width:275px;height:56px;background:url(../images/backgrounds/tweet.png);font-size:12px;padding:10px;line-height:1.5;margin-bottom:10px;padding-left:15px;overflow:hidden;}
+.land ul#tweet li a{color:#06F;}
+.land ul#tweet li a:hover{color:#F30;}
+
+
+.merwa{background:url(../images/backgrounds/merwa.png);width:209px;height:202px;margin-left:125px;margin-top:10px;float:left;
+zoom:1;
+
+}
+.ground{position:relative;color:#D8D8D8;position:relative;background:#996633 url(../images/backgrounds/ground.png);width:100%;height:883px;padding-top:80px; }
+.ground  h2{color:#fff;font-size:22px;margin-bottom:10px;margin-top:25px;}
+.ground .left{float:left;width:300px;}
+.ground .left p{color:#D8D8D8;font-size:14px;line-height:1.6;}
+.ground .left .avatar{margin-bottom:20px;width:200px;padding-left:10px;float:left;background:url(../images/backgrounds/portfolio.png);padding-bottom:23px;background-position:bottom center; background-repeat:no-repeat}
+.ground .left .avatar img{width:174px;height:151px;background:#fff;display:block;border:8px solid #fff;width:174px;height:153px;margin-right:25px;}
+.ground .right{float:right;width:600px;margin-right:50px;margin-top:-10px;}
+.ground_arrow{position:absolute;bottom:0;right:87px;margin:0;padding:0;}
+.ground .right ul{}
+.ground .right  ul li h3{font-family:Myriad Pro,Arial, Helvetica, sans-serif;margin-bottom:7px;color:#fff;}
+.ground .right  ul li p{line-height:1.6;font-size:14px;margin-left:10px; }
+.ground .right ul li{
+	margin-bottom:10px;
+float: left;
+
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+}
+.ground ul li.last{}
+.ground ul li a{color:#ccc;}
+
+.steam1,
+.steam2{
+	position:absolute;
+	bottom:78px;
+	left:70px;
+	width:80px;
+	height:80px;
+	background:url('../images/backgrounds/steam.png') no-repeat;
+	opacity:0.8;
+}
+
+.steam2{
+
+   /*	.steam2 shows the bottom part (dark version)
+	*	of the background image.
+	*/
+
+	background-position:left bottom;
+}
+
+.ground .water a:hover{color: #F30;}
+.ground .water a.top{color:#03C;font-weight:bold;font-size:32px;padding-left:115px;float:left;margin-top:20px;text-shadow:-1px -1px -1px #666;}
+.ground .water{background:url(../images/backgrounds/water.png);  background-repeat:no-repeat;width:221px;height:948px;right:-120px;top:-63px;position:absolute;}
+#social{
+	padding-top:30px;
+	width:270px;
+}
+#social li{margin-right:10px;float:left;margin-bottom:10px;}
+#social li a{display:block;width:64px;height:64px;text-indent:-9999px;}
+#social li.fb a {background:url(../images/icons/social.png);background-position:-63px 0;}
+#social li.fb a:hover {background-position:-63px -64px;}
+
+#social li.tw a {background:url(../images/icons/social.png);}
+#social li.tw a:hover {background-position:0 -64px;}
+
+#social li.in a {background:url(../images/icons/social.png);background-position:-128px 0;}
+#social li.in a:hover {background-position:-128px -64px;}
+
+#social li.youtube a {background:url(../images/icons/social.png);background-position:-256px 0;}
+#social li.youtube a:hover {background-position:-256px -64px;}
+
+#social li.cv a {background:url(../images/icons/social.png);background-position:-192px 0;}
+#social li.cv a:hover {background-position:-192px -64px;}
+
+#social li.blog a {background:url(../images/icons/social.png);background-position:-320px 0;}
+#social li.blog a:hover {background-position:-320px -64px;}
+
+
+#social li.tw img:hover{}
+#social li.in img:hover{}
+
+#skills{width:350px;}
+#skills li{height:22px;line-height:22px;margin-bottom:5px;padding-top:0;background-color:#6b461e;color:#9d7437;font-size:16px;font-weight:bold;text-align:left;font-family:Myriad Pro ,Arial, Helvetica, sans-serif; cursor:pointer;}
+#skills li span{color:#999;float:Right;display:none;}
+#skills li:hover span{display:block;}
+#skills li:hover{color:#fff;}
+#skills li.w100{width:100%;}
+#skills li.w80{width:80%;}
+#skills li.w60{width:60%;}
+#skills li.w50{width:50%;}
+#skills li.w70{width:70%;}
+#skills li.w90{width:90%;}
+#skills li.last{width:390px;background:none;border-top:2px solid #6b461e;padding:0; font-weight:normal;}
+#skills li.last span{color:#FFF;display:block;}
+#skills li.last span.zero{float:left;}
+
+.sea{background:#996633 url(../images/backgrounds/sea.png);width:100%;height:250px;padding-top:35px;}
+
+.contact-me{
+	margin: 0 auto;
+	position: relative;
+	left: 300px;
+}
+.contact-me h2{
+	color:#fff;font-size:36px;margin-bottom:20px;
+}
+.contact-me h3{font-size:28px;color:#fff;}
+.contact-me p,.contact-me a{font-size:30px;color:#0B5A9B;font-weight:bold;margin-bottom:15px;cursor:pointer;}
+.contact-me p:hover,.contact-me a:hover{color: #f9a01b;}
+
+
+
+.submarine{ width:550px;height:375px;background:url(../images/backgrounds/submarine.png) ;position:absolute;z-index:1;margin-left:0px;margin-top: -15px}
+.down_land{width:100%;background:#288dbc url(../images/backgrounds/down.png); background-position:bottom center;height:256px; background-repeat:repeat-x;}
+.down_land p{color:#fff;font-size:12px;width:350px;;margin:0 auto;padding-top:115px;}
+.mole{cursor:pointer;background:url(../images/backgrounds/avatar.png);width:119px;height:98px;position:absolute;top:610px;right:50px;}
+.mole:hover{opacity:0.4}
+
+.ship{background:url(../images/backgrounds/ship.png);width:257px;height:191px;position:absolute;left:20px;top:-15px;}
+.diver{background:url(../images/backgrounds/diver.png);width:211px;height:115px;position:absolute;left:420px;top:-15px;}
+.fish{background:url(../images/backgrounds/fish.png);width:174px;height:162px;position:absolute;right:0;top:-15px;}
+.shark{background:url(../images/backgrounds/shark.png);width:370px;float:right;height:202px;margin-top:-30px;position:absolute;padding-top:100px;color:#0B5A9B;font-size:14px;}
+.shark p{width:70px;text-align:center;margin-left:-10px;}
+/*** errores ***/
+.error{ display:none;margin-bottom:10px;background-color: #FFEBE8;
+border: 1px solid #DD3C10;color:#000;width:100%;padding-top:10px;padding-bottom:5px;}
+.error p{padding-left:8px;padding-right:8px;font-size:12px;}
+.sucess{margin-bottom:10px;border:1px solid #0C6;background:#3F9;color:#000;width:100%;padding-top:10px;padding-bottom:5px;}
+.sucess p{padding-left:8px;padding-right:8px;font-size:12px;}
+
+.block{display:block;}
+.none{display:none;}
+
+
+/**.tooltip**/
+
+.tooltip_container{background:#6b461e;padding:10px;color:#fff;font-size:11px;-moz-border-radius: 5px;
+border-radius: 5px;border:1px solid #83603a;z-index:9999;}
+.tooltip_container2{background:#6b461e;padding:10px;color:#fff;font-size:11px;-moz-border-radius: 5px;
+border-radius: 5px;border:1px solid #83603a;z-index:9999;}
+.tooltip_container .content{}
+
+
+.top_con{ position:absolute;right:-30px;color:#fff;font-size:20px; font-weight:bold;top:380px;z-index:9999;}
+
+
+.col11{float: left;
+width: 70px;}
+
+.col22{width: 100px;
+float: right;}
