@@ -1,6 +1,3 @@
-/**********eshbeata.com css **********/
-/**  Eshbeata **/
-
 
 /**** reset *********/
 *{margin:0;padding:0;border:0;}
@@ -60,14 +57,14 @@ background:url(../images/icons/arrow_right.png);width:22px;height:52px;display:b
 .talk_btn:active{background-position:0 -52px;}
 .land{margin-top:100px;background:url(../images/backgrounds/land.jpg);width:100%;height:546px; background-position:center center; background-repeat:no-repeat}
 
-.land ul#tweet{float:right;}
+/*.land ul#tweet{float:right;}
 .land ul#tweet li.first{width:auto;height:auto;background:none;padding:0px;margin:0;padding-left:0px;}
 .land ul#tweet h2{font-size:32px; color:#ef3f3e;margin-left:40px;}
 .land ul#tweet a.link{ text-indent:-9999px;display:block;width:106px;height:94px;background:url(../images/icons/twitter.png);float:left;margin-left:-60px;margin-top:-20px;position:absolute;}
 .land ul#tweet li{width:275px;height:56px;background:url(../images/backgrounds/tweet.png);font-size:12px;padding:10px;line-height:1.5;margin-bottom:10px;padding-left:15px;overflow:hidden;}
 .land ul#tweet li a{color:#06F;}
 .land ul#tweet li a:hover{color:#F30;}
-
+*/
 
 .merwa{background:url(../images/backgrounds/merwa.png);width:209px;height:202px;margin-left:125px;margin-top:10px;float:left;
 zoom:1;
@@ -95,7 +92,7 @@ padding-top: 20px;
 .ground ul li.last{}
 .ground ul li a{color:#ccc;}
 
-.steam1,
+/*.steam1,
 .steam2{
 	position:absolute;
 	bottom:78px;
@@ -108,12 +105,10 @@ padding-top: 20px;
 
 .steam2{
 
-   /*	.steam2 shows the bottom part (dark version)
-	*	of the background image.
-	*/
+ 
 
 	background-position:left bottom;
-}
+}*/
 
 .ground .water a:hover{color: #F30;}
 .ground .water a.top{color:#03C;font-weight:bold;font-size:32px;padding-left:115px;float:left;margin-top:20px;text-shadow:-1px -1px -1px #666;}
@@ -180,14 +175,12 @@ padding-top: 20px;
 .submarine{ width:550px;height:375px;background:url(../images/backgrounds/submarine.png) ;position:absolute;z-index:1;margin-left:0px;margin-top: -15px}
 .down_land{width:100%;background:#288dbc url(../images/backgrounds/down.png); background-position:bottom center;height:256px; background-repeat:repeat-x;}
 .down_land p{color:#fff;font-size:12px;width:350px;;margin:0 auto;padding-top:115px;}
-.mole{cursor:pointer;background:url(../images/backgrounds/avatar.png);width:119px;height:98px;position:absolute;top:610px;right:50px;}
-.mole:hover{opacity:0.4}
+
 
 .ship{background:url(../images/backgrounds/ship.png);width:257px;height:191px;position:absolute;left:20px;top:-15px;}
 .diver{background:url(../images/backgrounds/diver.png);width:211px;height:115px;position:absolute;left:420px;top:-15px;}
 .fish{background:url(../images/backgrounds/fish.png);width:174px;height:162px;position:absolute;right:0;top:-15px;}
-.shark{background:url(../images/backgrounds/shark.png);width:370px;float:right;height:202px;margin-top:-30px;position:absolute;padding-top:100px;color:#0B5A9B;font-size:14px;}
-.shark p{width:70px;text-align:center;margin-left:-10px;}
+
 /*** errores ***/
 .error{ display:none;margin-bottom:10px;background-color: #FFEBE8;
 border: 1px solid #DD3C10;color:#000;width:100%;padding-top:10px;padding-bottom:5px;}
@@ -208,7 +201,7 @@ border-radius: 5px;border:1px solid #83603a;z-index:9999;}
 .tooltip_container .content{}
 
 
-.top_con{ position:absolute;right:-30px;color:#fff;font-size:20px; font-weight:bold;top:380px;z-index:9999;}
+.top_con{ position:relative;right:-1200px;color:#fff;font-size:20px; font-weight:bold;bottom:-200px;z-index:9999;}
 
 
 .col11{float: left;
