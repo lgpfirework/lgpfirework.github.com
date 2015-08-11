@@ -86,22 +86,19 @@ zoom:1;  }
 	width:270px;
 }
 #social li{margin-right:10px;float:left;margin-bottom:10px;display: block}
-#social li a{display:block;width:64px;height:64px;text-indent:-9999px;}
+#social li a{display:block;width:45px;height:45px;text-indent:-9999px;}
 
-#social li.e-mail a img{display: block;width: 67px;height: 67px;}
+#social li.e-mail a img{display: block;width: 45px;height: 45px;}
 
-#social li.github a img{display: block;width: 67px;height: 67px;}
-
-
-/*#social li.cv a {background:url(../images/icons/social.png);background-position:-192px 0;}*/
+#social li.github a img{display: block;width: 45px;height: 45px;}
 
 
-#social li.blog a img{display: block;width: 67px;height: 67px;}
+#social li.cv a img{display: block;width: 40px;height: 35px; padding-top: 5px }
 
 
+#social li.blog a img{display: block;width: 45px;height: 45px;}
 
-#social li.tw img:hover{}
-#social li.in img:hover{}
+
 
 #skills{width:350px;}
 #skills li{height:22px;line-height:22px;margin-bottom:5px;padding-top:0;background-color:#6b461e;color:#9d7437;font-size:16px;font-weight:bold;text-align:left;font-family:Myriad Pro ,Arial, Helvetica, sans-serif; cursor:pointer;}
