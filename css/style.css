@@ -85,25 +85,19 @@ zoom:1;  }
 	padding-top:30px;
 	width:270px;
 }
-#social li{margin-right:10px;float:left;margin-bottom:10px;}
+#social li{margin-right:10px;float:left;margin-bottom:10px;display: block}
 #social li a{display:block;width:64px;height:64px;text-indent:-9999px;}
-#social li.fb a {background:url(../images/icons/social.png);background-position:-63px 0;}
-#social li.fb a:hover {background-position:-63px -64px;}
 
-#social li.tw a {background:url(../images/icons/social.png);}
-#social li.tw a:hover {background-position:0 -64px;}
+#social li.e-mail a img{display: block;width: 67px;height: 67px;}
 
-#social li.in a {background:url(../images/icons/social.png);background-position:-128px 0;}
-#social li.in a:hover {background-position:-128px -64px;}
+#social li.github a img{display: block;width: 67px;height: 67px;}
 
-#social li.youtube a {background:url(../images/icons/social.png);background-position:-256px 0;}
-#social li.youtube a:hover {background-position:-256px -64px;}
 
-#social li.cv a {background:url(../images/icons/social.png);background-position:-192px 0;}
-#social li.cv a:hover {background-position:-192px -64px;}
+/*#social li.cv a {background:url(../images/icons/social.png);background-position:-192px 0;}*/
 
-#social li.blog a {background:url(../images/icons/social.png);background-position:-320px 0;}
-#social li.blog a:hover {background-position:-320px -64px;}
+
+#social li.blog a img{display: block;width: 67px;height: 67px;}
+
 
 
 #social li.tw img:hover{}
